@@ -1,0 +1,15 @@
+import PySimpleGUI as sg
+
+sg.theme("DarkGreen")
+sg.theme_text_color("#FFFF00")
+
+window = sg.Window(
+    title="Elemen Text",
+    layout=[[sg.Text("Selamat Belajar GUI",
+                    font=("Helvetica", 24))],
+            [sg.Text("dengan PySimpleGUI",
+                    font=("Courier" ,18))]],
+            size=(400, 200))
+
+window.read()
+window.close()

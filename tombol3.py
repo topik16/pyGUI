@@ -18,9 +18,9 @@ window = sg.Window(
     title="Contoh Tombol",
     layout=[[sg.Text("Contoh Tombol",
                     key="-JAM-")],
-                    [sg.Button ("Jam Sekarang"),
-                    sg.Button ("Kelaur")]
-                    ])
+            [sg.Button ("Jam Sekarang"),
+            sg.Button ("Keluar")]],
+    icon="favicon.ico")
 while True:
     kejadian, nilai = window.read()
     if kejadian in (sg.WIN_CLOSED, "Keluar"):
