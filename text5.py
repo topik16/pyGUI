@@ -12,4 +12,3 @@ window = sg.Window(
 
 window.read()
 window.close()
-
