@@ -1,9 +1,9 @@
 import PySimpleGUI as sg
 
 layout = [[sg.VPush()],
-        [sg.Button (image_filename="/Users/rachmattaufik/robi coolyeah/pyGUI/image/clock-icon.png",
+        [sg.Button (image_filename="/Users/rachmattaufik/robi coolyeah/pyGUI/image/clock-1 (1).png",
                     key="-JAM-"),
-        sg.Button (image_filename="/Users/rachmattaufik/robi coolyeah/pyGUI/image/Users-Exit-icon.png",
+        sg.Button (image_filename="/Users/rachmattaufik/robi coolyeah/pyGUI/image/exit-1 (1).png",
                     key="-KELUAR-")],
         [sg.VPush()]]
 
