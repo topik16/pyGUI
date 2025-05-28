@@ -9,17 +9,17 @@ layout = [[sg.VPush()],
                 [sg.VPush()]]
 
 window = sg.Window(
-    title="Penggunaan image_size",
-    layout=layout,
-    resizable=True,
-    element_justification="center",
-    size=(400, 100))
+        title="Penggunaan image_size",
+        layout=layout,
+        resizable=True,
+        element_justification="center",
+        size=(400, 100))
 
 while True:
-    kejadian, nilai = window.read()
+        kejadian, nilai = window.read()
 
-    if kejadian in (sg.WIN_CLOSED, "-KELUAR-",
-                    "-USAI-"):
-        break
+        if kejadian in (sg.WIN_CLOSED, "-KELUAR-",
+                "-USAI-"):
+                break
 
 window.close()
