@@ -3,7 +3,7 @@ import PySimpleGUI as sg
 layout = [[sg.CalendarButton(
                     "Pilih tanggal",
                     format="%d-%m-%y",
-                    locale="Indonesian",
+                    locale="id_ID",
                     month_names=["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]),
         sg.Text("", key="-TANGGAL-")],
         [sg.Button("Baca tanggal terplih",
