@@ -19,11 +19,11 @@ window["-GHI-"].set_cursor("spider")
 window["-JKL-"].set_cursor("star")
 
 while True:
-    kejadian, nilai = window.read()
-    print(kejadian, nilai)
+        kejadian, nilai = window.read()
+        print(kejadian, nilai)
 
-    if kejadian == sg.WIN_CLOSED:
-        break
+        if kejadian == sg.WIN_CLOSED:
+                break
 
 window.close()
 
